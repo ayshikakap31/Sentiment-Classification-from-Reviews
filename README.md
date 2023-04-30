@@ -10,3 +10,9 @@ We then built a basic three-layer neural network. The hidden layer does not have
 To further optimize the network, we analyzed inefficiencies in our network by eliminating unnecessary multiplications and additions that occur during forward and backward propagation. Finally, we improved the network's performance by strategically reducing more noise in the vocabulary.
 
 Overall, this project provides a solution to classify the sentiment of movie reviews using a basic three-layer neural network and pre-processing techniques to reduce noise and optimize the network's performance.
+
+## Installation
+To use this project, you will need to install the required dependencies, including Python, numpy, time, sys, matplotlib, sklearn.
+
+##Usage
+To use the sentiment classifier, run the 'Solution.ipynb' script.
