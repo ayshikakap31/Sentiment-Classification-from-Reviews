@@ -1,9 +1,12 @@
 # Sentiment-Classification-from-Reviews
-This project aims to classify the sentiment of human generated IMDB movie reviews as either positive or negative labels. As, neural networks don't accept text inputs directly so, we'll have to transform the textual inputs data to numerical form so that the neural networks can discover correlation. 
-The file 'reviews.txt' consists of 25000 movie reviews and 'labels.txt' consists the corresponding label as POSITIVE or NEGATIVE.
-At first, we did a theory validation by finding words that are most common in POSITIVE and NEGATIVE reviews. It can be observed that there are few words that are common in both. So, we found ratio between words that are commo between both labels.
-Next, we transformed the text into numbers. We converted each review string into a vector that uses the counts of each word in the review as input to the neural network. Also, for output the NEGATIVE is transformed to '0' and POSITIVE to '1'.
-Then, a basic 3 layer neural network is built. There is no non-linearity in the hidden layer. Also, a function to pre-process our training data is created.
-To make the training faster and to improve accuracy of predictions, we reduce the noise in the input data.
-To further optimize our network, we analyze inefficiencies in our network by eliminating unnecessary multiplications and additions that occur during forward and backward propogation.
-Lastly, we imporove the network's performance by reducing more noise strategically in the vocabulary.
+This project aims to classify the sentiment of human-generated IMDB movie reviews as either positive or negative. Since neural networks don't accept text inputs directly, we needed to transform the textual input data into a numerical form so that the neural networks could discover correlations.
+
+The project uses two files, 'reviews.txt' and 'labels.txt', consisting of 25,000 movie reviews and corresponding labels as POSITIVE or NEGATIVE. Before building the neural network, we validated the theory by finding the most common words in POSITIVE and NEGATIVE reviews. We observed that only a few words were common in both, so we found the ratio between words that were common between both labels.
+
+Next, we transformed the text into numbers. We converted each review string into a vector that used the counts of each word in the review as input to the neural network. Additionally, we transformed NEGATIVE to '0' and POSITIVE to '1' for output.
+
+We then built a basic three-layer neural network. The hidden layer does not have any non-linearity. We also created a function to preprocess our training data to reduce noise in the input data, which made the training faster and improved the accuracy of predictions.
+
+To further optimize the network, we analyzed inefficiencies in our network by eliminating unnecessary multiplications and additions that occur during forward and backward propagation. Finally, we improved the network's performance by strategically reducing more noise in the vocabulary.
+
+Overall, this project provides a solution to classify the sentiment of movie reviews using a basic three-layer neural network and pre-processing techniques to reduce noise and optimize the network's performance.
