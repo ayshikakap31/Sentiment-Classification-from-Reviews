@@ -14,5 +14,5 @@ Overall, this project provides a solution to classify the sentiment of movie rev
 ## Installation
 To use this project, you will need to install the required dependencies, including Python, numpy, time, sys, matplotlib, sklearn.
 
-##Usage
+## Usage
 To use the sentiment classifier, run the 'Solution.ipynb' script.
